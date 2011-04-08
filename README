@@ -7,4 +7,16 @@ ListAdapter myCustomAdapter;
 
 GroupedAdapter groupedAdapter = new GroupedAdapterWrapper(myCustomAdapter);
 
-Check out the screen shot!!
+To use it in your project:
+__________________________
+
+Pull out the 
+src/com/webile/adapters/GroupedAdapterWrapper.java
+res/drawable-hdpi/bottom_cornered.9.png
+res/drawable-hdpi/full_cornered.9.png
+res/drawable-hdpi/no_cornered.9.png
+res/drawable-hdpi/top_cornered.9.png
+
+Thanks to nazish@webileapps.com for the drawables.
+
+P.S. Check out the screen shot!
