@@ -5,6 +5,6 @@ ________________
 
 ListAdapter myCustomAdapter;
 
-GroupedAdapter groupedAdapter = GroupedAdapterWrapper(myCustomAdapter);
+GroupedAdapter groupedAdapter = new GroupedAdapterWrapper(myCustomAdapter);
 
 Check out the screen shot!!
