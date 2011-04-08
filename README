@@ -1,0 +1,10 @@
+A simple adapter wrapper to make your adapter look sectioned and round cornered.
+
+Simple to use:
+________________
+
+ListAdapter myCustomAdapter;
+
+GroupedAdapter groupedAdapter = GroupedAdapterWrapper(myCustomAdapter);
+
+Check out the screen shot!!

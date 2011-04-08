@@ -45,18 +45,17 @@ public class MainActivity extends ListActivity {
 		getListView().addFooterView(footerTextView);
 		
         setListAdapter(
-				new GroupedAdapterWrapper(
-						new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1)
-						{
-							public int getCount() {
-								return 5;
-							};
-							
-							public String getItem(int position) {
-								return String.format("Cell %d",position+1);
-							};
-						}
-				)
+			new GroupedAdapterWrapper(
+				new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1){
+					public int getCount() {
+						return 5;
+					};
+					
+					public String getItem(int position) {
+						return String.format("Cell %d",position+1);
+					};
+				}
+			)
 		);
 	}
 	
